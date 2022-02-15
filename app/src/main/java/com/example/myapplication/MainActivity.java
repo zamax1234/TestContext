@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     Intent intent;
     SharedPreferences preferences;
     static List<Person> list;
+    int age = 10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
